@@ -1,7 +1,10 @@
+import { UserButton } from "@clerk/nextjs"
+// import DashboardLayout from "./layout"
+
 export default function Home() {
-return(
-  <p>
-    This is an authenticated route
-  </p>
-)
+  return (
+    <p>
+      Dashboard Page
+    </p>
+  )
 }
